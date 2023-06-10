@@ -1,2 +1,5 @@
-# My-Basic-Android-Calculator
-My first project as an Android Developer
+**MY BASIC ANDROID CALCULATOR**
+Objectives<br>
+* Implement a class containing numeric functions
+* Implement a UI for user interaction with arithmetic functions
+* Display the result appropiately
