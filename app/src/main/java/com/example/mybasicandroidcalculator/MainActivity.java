@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
         Button btnMinus = findViewById(R.id.minusbutton);
         Button btnProduct = findViewById(R.id.productbutton);
         Button btnDiv = findViewById(R.id.divbutton);
+        /**
+         * onclicking the add button
+         */
         btnAdd.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -40,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
                     }
             }
         });
+        /**
+         * onclicking the divide button
+         */
         btnDiv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        /**
+         * onclicking the subtract button
+         */
         btnMinus.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -67,6 +76,9 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        /**
+         * onclicking the product button
+         */
         btnProduct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
